@@ -20,9 +20,14 @@
   <script src="https://kit.fontawesome.com/cf6539e3d7.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
+
   <header>{% include "nav.njk" %}</header>
+
   <main>
     {{ content | safe }}
   </main>
+
+  <footer>{% include "footer.njk" %}</footer>
+
 </body>
 </html>
