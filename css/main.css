@@ -1,0 +1,72 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Defaults */
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Global styles */
+html {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+body {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header */
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 80px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.left-nav,
+.center-nav,
+.right-nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.center-nav {
+  margin-right: -40px;
+}
+
+.nav-item {
+  transition: 0.1s ease-in;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  color: #0087ca;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.socials a:hover {
+  color: #0087ca;
+}

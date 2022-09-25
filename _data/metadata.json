@@ -1,0 +1,11 @@
+{
+  "title": "Dev Gill",
+  "url": "https://devgill.co",
+  "language": "en-US",
+  "description": "Meditations on coding, life and the universe.",
+  "author": {
+    "name": "Dev Gill",
+    "email": "dev@devgill.co",
+    "url": "https://devgill.co/about/"
+  }
+}
