@@ -68,11 +68,13 @@
   font-size: 17px;
 }
 
-.post-body a {
+.post-body a,
+.all-posts {
   color: #0087ca;
 }
 
-.post-body a:hover {
+.post-body a:hover,
+.all-posts:hover {
   color: #44b78b;
   text-decoration: underline;
 }
