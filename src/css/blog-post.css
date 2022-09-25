@@ -1,0 +1,166 @@
+/* Sticky Header */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+}
+
+.sticky-title {
+  height: 20px;
+}
+
+.progress-container {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+.progress-bar {
+  height: 2px;
+  background-color: #0087ca;
+  width: 0%;
+}
+
+/* Blog Post */
+.post-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px auto 60px auto;
+  max-width: 680px;
+}
+
+.article-meta {
+  margin-bottom: 24px;
+}
+
+.meta-bar {
+  margin: 0 4px;
+  color: #999;
+}
+
+.author-entry,
+.date-entry,
+.read-time {
+  color: #999;
+  font-size: 0.95rem;
+}
+
+.post-title {
+  margin: 0 10px 60px 10px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.post-body {
+  margin: 0 20px;
+  line-height: 32px;
+}
+
+.post-body h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-body p {
+  font-size: 17px;
+}
+
+.post-body a {
+  color: #0087ca;
+}
+
+.post-body a:hover {
+  color: #44b78b;
+  text-decoration: underline;
+}
+
+.post-body img {
+  display: block;
+  border: 1px solid #999;
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px 1px #aaa;
+  max-width: 680px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+code {
+  display: inline-block;
+  padding: 0 .25em;
+  border: 1px solid #aaa;
+  border-radius: .28rem;
+  background: #fafafa;
+  /* color: #315082; */
+  line-height: 24px;
+}
+
+/* Post Actions */
+.post-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.post-actions a:hover {
+  text-decoration: underline;
+}
+
+/* Post Footer */
+.post-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto 30px;
+  text-align: center;
+  max-width: 680px;
+}
+
+#hr {
+  width: 680px;
+  max-width: 90%;
+  border: 0;
+  height: 1px;
+  margin: 0;
+  opacity: 1;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 135, 202, 1), rgba(0, 0, 0, 0));
+}
+
+.post-footer h2 {
+  margin: 60px 20px 40px;
+  font-size: 24px;
+}
+
+.post-footer h3 {
+  font-size: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 650px) {
+  .post-entry {
+    margin: 60px auto 60px auto;
+    max-width: 680px;
+  }
+
+  .post-title {
+    font-size: 24px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .sticky-header {
+    background-color: #000;
+  }
+
+  .progress-container {
+    background-color: #000;
+  }
+
+  code {
+    background: lightgrey;
+    color: #315082;
+  }
+}
