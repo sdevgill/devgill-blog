@@ -1,5 +1,4 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 /* Defaults */
 :root {
@@ -71,25 +70,6 @@ a {
   color: #0087ca;
 }
 
-/* Page */
-.post-entry {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 80px auto;
-  max-width: 650px;
-}
-
-.post-title {
-  margin: 0 10px 45px 10px;
-  text-align: center;
-}
-
-.post-body {
-  margin: 0 20px;
-  line-height: 1.5;
-}
-
 /* Footer */
 footer {
   display: flex;
@@ -134,7 +114,6 @@ footer .socials a {
 }
 
 @media (prefers-color-scheme: dark) {
-
   .nav-item,
   a {
     color: white;
