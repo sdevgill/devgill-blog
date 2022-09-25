@@ -127,6 +127,10 @@ footer .socials a {
   .post-entry {
     margin: 60px auto;
   }
+
+  .projects {
+    margin-top: 50px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
