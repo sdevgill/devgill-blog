@@ -7,9 +7,9 @@
   background-color: #fff;
 }
 
-.sticky-title {
-  /* height: 20px; */
-}
+/* .sticky-title {
+  height: 20px;
+} */
 
 .progress-container {
   width: 100%;
@@ -102,9 +102,10 @@ code {
 
 /* Post Actions */
 .post-actions {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center; */
+  margin-top: 20px;
 }
 
 .post-actions a:hover {
@@ -132,7 +133,7 @@ code {
 }
 
 .post-footer h2 {
-  margin: 60px 20px 40px;
+  margin: 40px 20px 40px;
   font-size: 24px;
 }
 
