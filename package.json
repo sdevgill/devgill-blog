@@ -13,5 +13,8 @@
   "description": "",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "luxon": "^3.0.4"
   }
 }
