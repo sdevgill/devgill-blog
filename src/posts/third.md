@@ -1,5 +1,6 @@
 ---
 title: My Third Blog Post in the year of 2022
+permalink: /blog/{{ title | slugify }}/
 description: This is the first post on my blog
 tags: post
 date: 2021-06-19
