@@ -1,0 +1,16 @@
+---
+permalink: /.htaccess
+eleventyExcludeFromCollections: true
+---
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (archive.org_bot) [NC]
+RewriteRule .* - [R=403,L]
+
+Deny from 207.241.226.233 207.241.225.244 207.241.226.230 207.241.226.219 207.241.226.218 207.241.226.234
+207.241.226.247 207.241.225.236
+
+SetEnvIfNoCase User-Agent “^archive.org_bot” bad_bot
+SetEnvIfNoCase User-Agent “^ia_archiver” bad_bot
+SetEnvIfNoCase User-Agent “^ia_archiver-web.archive.org” bad_bot
+
+Order Allow,Deny Allow from all Deny from env=bad_bot
