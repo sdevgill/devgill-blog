@@ -70,3 +70,10 @@
 .essays {
   margin-bottom: 60px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 650px) {
+  .projects {
+    margin-top: 50px;
+  }
+}
