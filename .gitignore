@@ -2,6 +2,9 @@
 _site/
 public/
 
+# WebStorm
+.idea/
+
 # Logs
 logs
 *.log
